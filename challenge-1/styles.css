@@ -1,61 +1,59 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
-    Ubuntu, Cantarell, sans-serif;
-  line-height: 1.6;
-  color: white;
-  background-color: #0a0a0a;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+        Ubuntu, Cantarell, sans-serif;
+    line-height: 1.6;
+    color: white;
+    background-color: #0a0a0a;
+    background-image: linear-gradient(0deg, #0a0a0a, #160125);
+    background-repeat: no-repeat;
 }
 
 .hero {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.announcement {
-}
+.announcement {}
 
 .announcement-link {
-  /*  */
+    /*  */
 }
 
-.announcement-link:hover {
-}
+.announcement-link:hover {}
 
-.announcement-text {
-}
+.announcement-text {}
 
-.announcement-button {
-}
+.announcement-button {}
 
-.hero-content {
-}
+.hero-content {}
 
-.hero-title {
-}
+.hero-title {}
 
-.hero-description {
-}
+.hero-description {}
 
-.cta-button {
-}
+.cta-button {}
 
-.cta-button:hover {
-}
+.cta-button:hover {}
 
 @media (max-width: 640px) {
-  .hero {
-    padding: 1rem;
-  }
+    .hero {
+        padding: 1rem;
+    }
 
-  .announcement-link {
-    font-size: 0.75rem;
-  }
+    .announcement-link {
+        font-size: 0.75rem;
+    }
 
-  .hero-content {
-    padding: 0 1rem;
-  }
+    .hero-content {
+        padding: 0 1rem;
+    }
 }
